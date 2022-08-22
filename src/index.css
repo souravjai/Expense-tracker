@@ -1,3 +1,12 @@
+:root{
+  --background:#121212;
+  --primary:#6200EE;
+  --primary-variant:#3700B3;
+  --secondary:#03DAC6;
+  --seconday-variant:#018786;
+  --error:#C51162;
+  --white:white;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +14,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color:var(--white)
 }
 *{
   box-sizing: border-box;

@@ -1,0 +1,15 @@
+.new-expense__div{
+    display: flex;
+    justify-content: flex-end
+}
+
+.new-expense__field{
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 10px;
+    margin-right: 0px;
+}
+
+.new-expense__label{
+    margin-bottom: 20px;
+}

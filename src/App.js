@@ -1,8 +1,10 @@
+import React from 'react'
 import './App.css';
+import NewExpense from './components/NewExpenses/NewExpense'
 
-const App= ()=> {
+function App(){
   return (
-    <h1>Text</h1>
+   <NewExpense/>
   );
 }
 
